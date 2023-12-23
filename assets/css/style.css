@@ -1,7 +1,7 @@
 /* Google Fonts Title - Rubik */
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Rubik+Doodle+Shadow&display=swap');
-/* Google Fonts text - Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* Google Fonts text - Kanit */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 
 /* Asterisk wildcard selectort override default styles added by browser */
 * {
@@ -14,13 +14,17 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: #151922;
+    background-image: url("../images/img/bgimage.jpg");
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+/* Heading and Text*/
 header {
-    background-color: #151922;
-    padding: 30px 1rem;
-    font-family:"Rubik Doodle Shadow";
-    color: #ffffff;
+    padding: 40px 0 1rem;
+    font-family:"Rubik Doodle Shadow", sans-serif;
+    color: #9f021e;
     width: 100%;
     text-align: center;
     font-size: 175%;
@@ -29,5 +33,20 @@ header {
 
 header a{
     color: inherit;
+    text-decoration: none;
 }
 
+.container{
+    background-color:rgba(25, 27, 30, 0.7);
+    color: #fff;
+    padding: 10px 1rem;
+    margin: 1.5em;
+    text-align: justify;
+    font-family:"Kanit", sans-serif ;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+}
+
+/* Start Button */
