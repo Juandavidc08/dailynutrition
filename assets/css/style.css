@@ -1,0 +1,33 @@
+/* Google Fonts Title - Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Rubik+Doodle+Shadow&display=swap');
+/* Google Fonts text - Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Asterisk wildcard selectort override default styles added by browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #151922;
+}
+header {
+    background-color: #151922;
+    padding: 30px 1rem;
+    font-family:"Rubik Doodle Shadow";
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    font-size: 175%;
+
+}
+
+header a{
+    color: inherit;
+}
+
