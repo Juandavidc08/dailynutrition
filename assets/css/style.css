@@ -79,3 +79,24 @@ header a{
     position: relative;
     top: 1px;
 }
+
+/* Footer */
+footer {
+   
+    justify-content: flex-end;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+#social-networks li a {
+    color:rgba(25, 27, 30, 0.8);
+    font-size: 250%;
+    padding: 5%;
+}
