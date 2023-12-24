@@ -41,12 +41,13 @@ function replaceQuestionWithButtons() {
     buttonDiv.classList.add("age-buttons");
 
     // Define age ranges
-    const ageRanges = ["18-25", "25-35", "35-45", "45+"];
+    const ageRanges = ["18 - 25", "25 - 35", "35 - 45", "45   +"];
 
     // Create buttons for each age range
     ageRanges.forEach(function (range) {
         const button = document.createElement("button");
         button.textContent = range;
+        button.classList.add("age-btn"); 
         button.addEventListener("click", function () {
             // this will change to go to your goal 
             alert("You selected: " + range);
