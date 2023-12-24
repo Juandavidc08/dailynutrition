@@ -171,9 +171,9 @@ footer {
 header {
     font-size: 300%;
 }
-
+/*Need to fix this !!!!!!!*/
 .container {
-    font-size: 200%;
+    font-size: 500%;
     
 }
 
@@ -181,8 +181,21 @@ header {
     font-size: 400%;
 }
 
+.question-area label{
+    font-size: 200%;
+
+}
+
+.question-area input{
+    font-size:180%;
+}
+
 .start-btn {
-    font-size: 150%;
+    font-size: 300%;
+}
+
+#next-btn {
+    font-size: 300%;
 }
 
 /* Age question area */
@@ -190,24 +203,23 @@ header {
 .age-text {
     
     padding: 100px 20rem;
-    font-size: 250%;
+    font-size: 300%;
 
 }
 
+.age-text p {
+    font-size: 220%;
+}
+
 input#name {
-    font-size: 100%;
+    font-size: 200%;
 }
 
 .age-btn {
     margin: 20px 10px;
-    font-size: 100%;
+    font-size: 180%;
 }
 
-.age-btn {
-
-    margin: 20px 1px;
-
-}
 
 }
 
