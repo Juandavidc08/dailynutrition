@@ -23,30 +23,38 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-
 function replaceQuestionWithButtons() {
-    // Get the main container div that will change 
+    // Get the main container
     const mainContainer = document.querySelector(".flex-container");
+
+    // Create a div for question what is your age?
+    const ageTextDiv = document.createElement("div");
+    ageTextDiv.classList.add("age-text");
+
+    // Create a paragraph asking for the user's age
+    const ageParagraph = document.createElement("p");
+    ageParagraph.textContent = "What is your age?";
+    ageTextDiv.appendChild(ageParagraph);
 
     // Create a div for buttons
     const buttonDiv = document.createElement("div");
     buttonDiv.classList.add("age-buttons");
 
-    //  Age ranges Array
+    // Define age ranges
     const ageRanges = ["18-25", "25-35", "35-45", "45+"];
 
     // Create buttons for each age range
-    // Range function learn in https://dev.to/ycmjason/how-to-create-range-in-javascript-539i
     ageRanges.forEach(function (range) {
         const button = document.createElement("button");
         button.textContent = range;
         button.addEventListener("click", function () {
-            //This will change to go to next question
+            // this will change to go to your goal 
             alert("You selected: " + range);
         });
         buttonDiv.appendChild(button);
     });
 
-    // Replace the question area with the button div
-    mainContainer.replaceChild(buttonDiv, document.querySelector(".question-area"));
+    // Append the new content and button div to the main container
+    ageTextDiv.appendChild(buttonDiv);
+    mainContainer.replaceChild(ageTextDiv, document.querySelector(".question-area"));
 }
