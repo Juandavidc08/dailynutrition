@@ -110,9 +110,9 @@ strong{
 
 }
 
-/* Age question area */
+/* Age  and goal question area */
 
-.age-text {
+.age-text, .goal-text{
     background-color: rgba(25, 27, 30, 0.7);
     color: #fff;
     padding: 80px 5rem;
@@ -127,7 +127,7 @@ strong{
 
 }
 
-.age-btn {
+.age-btn, .goal-btn {
     box-shadow: 3px 4px 0px 0px #8a2a21;
         background: linear-gradient(to bottom, #c62d1f 5%, #bd4840 100%);
         background-color: #c62d1f;
@@ -172,7 +172,7 @@ footer {
 header {
     font-size: 300%;
 }
-/*Need to fix this !!!!!!!*/
+
 .container {
     margin: 100px;
 }
@@ -208,9 +208,9 @@ header {
     font-size: 300%;
 }
 
-/* Age question area */
+/* Age and goal question area */
 
-.age-text {
+.age-text, .goal-text {
     
     padding: 100px 20rem;
     font-size: 300%;
@@ -218,6 +218,10 @@ header {
 }
 
 .age-text p {
+    font-size: 220%;
+}
+
+.goal-text p {
     font-size: 220%;
 }
 
@@ -230,6 +234,10 @@ input#name {
     font-size: 180%;
 }
 
+.goal-btn{
+        margin: 20px 30rem;
+        font-size: 180%;
+}
 
 }
 
@@ -262,7 +270,7 @@ input#name {
 
     /*Age-btn*/
 
-.age-text {
+.age-text, .goal-text {
 
     padding: 100px 15rem;
     font-size: 100%;
@@ -270,7 +278,7 @@ input#name {
 
 }
 
-.age-btn{
+.age-btn, .goal-btn{
      margin: 20px 1px;
     font-size: 150%;
     }
