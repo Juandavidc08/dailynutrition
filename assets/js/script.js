@@ -23,6 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+// Age range function
 function replaceQuestionWithButtons() {
     // Get the main container
     const mainContainer = document.querySelector(".flex-container");
@@ -50,12 +52,52 @@ function replaceQuestionWithButtons() {
         button.classList.add("age-btn"); 
         button.addEventListener("click", function () {
             // this will change to go to your goal 
-            alert("You selected: " + range);
+            replaceAgeWithGoal();
         });
         buttonDiv.appendChild(button);
     });
 
+
     // Append the new content and button div to the main container
     ageTextDiv.appendChild(buttonDiv);
     mainContainer.replaceChild(ageTextDiv, document.querySelector(".question-area"));
+
+}
+// Next question what is your goal function will work the same as the age range function
+function replaceAgeWithGoal() {
+
+     // Get the main container again
+    const mainContainer = document.querySelector(".flex-container");
+
+    // Create a div for question what is your goal?
+    const goalTextDiv = document.createElement("div");
+    goalTextDiv.classList.add("goal-text");
+
+    const goalParagraph = document.createElement("p");
+    goalParagraph.textContent = "What is your goal?";
+
+    // Create a div for goal buttons
+    goalTextDiv.appendChild(goalParagraph);
+    const goalButtonDiv = document.createElement("div");
+    goalButtonDiv.classList.add("goal-buttons");
+
+    // Create buttons for each goal option 
+
+    const goalOptions = ["Muscle Gain", "Loss Weight", "Control Calories"];
+
+    goalOptions.forEach(function (range) {
+        const goalButton = document.createElement("button");
+        goalButton.textContent = range;
+        goalButton.classList.add("goal-btn");
+        goalButton.addEventListener("click", function () {
+            // this will go to the result of the test
+            alert("You selected: " + range);
+        });
+        goalButtonDiv.appendChild(goalButton);
+    });
+
+    // Append the new content and button div to the main container , and chage the age range question to the goal options
+
+    goalTextDiv.appendChild(goalButtonDiv);
+    mainContainer.replaceChild(goalTextDiv, document.querySelector(".age-text"));
 }
