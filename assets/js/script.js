@@ -89,9 +89,8 @@ function replaceAgeWithGoal() {
         goalButton.textContent = range;
         goalButton.classList.add("goal-btn");
         goalButton.addEventListener("click", function () {
-            // Redirect to lifestyle question 
-
-        
+            // Redirect to lifestyle question
+            replaceGoalWithLifeStyle() 
         });
         goalButtonDiv.appendChild(goalButton);
     });
