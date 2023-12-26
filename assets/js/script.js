@@ -164,8 +164,8 @@ function lastGoal() {
         lastGoalButton.textContent = range;
         lastGoalButton.classList.add("lgoal-btn");
         lastGoalButton.addEventListener("click", function () {
-            // Redirect to resutl page
-            
+            // Redirect to resuly page
+            redirectToResult(range);
         
         });
         lastGoalButtonDiv.appendChild(lastGoalButton);
@@ -176,3 +176,29 @@ function lastGoal() {
     mainContainer.replaceChild(lastGoalTextDiv, document.querySelector(".lifestyle-text"));
 }
 
+// Function to redirect to a new page according on the selected goal
+function redirectToResult(selectedGoal) {
+    
+    let redirectUrl;
+// switch function learned properly in https://www.shecodes.io/athena/11461-how-to-make-a-div-redirect-to-another-page-using-javascript#:~:text=To%20make%20a%20div%20element,redirect%20to%20the%20desired%20page.
+// and in https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
+
+    switch (selectedGoal) {
+        case "Muscle Gain":
+            redirectUrl = "muscle-gain.html";
+            break;
+        case "Loss Weight":
+            redirectUrl = "loss-weight.html";
+            break;
+        case "Control Calories":
+            redirectUrl = "control-calories.html";
+            break;
+        default:
+            // Handle default case or error
+            redirectUrl = "index.html";
+            break;
+    }
+
+    
+    window.location.href = redirectUrl;
+}
