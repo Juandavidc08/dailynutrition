@@ -89,8 +89,9 @@ function replaceAgeWithGoal() {
         goalButton.textContent = range;
         goalButton.classList.add("goal-btn");
         goalButton.addEventListener("click", function () {
-            // Redirect to results page
-            redirectToGoalPage(range);
+            // Redirect to lifestyle question 
+
+        
         });
         goalButtonDiv.appendChild(goalButton);
     });
@@ -100,29 +101,41 @@ function replaceAgeWithGoal() {
     mainContainer.replaceChild(goalTextDiv, document.querySelector(".age-text"));
 }
 
-// Function to redirect to a new page according on the selected goal
-function redirectToGoalPage(selectedGoal) {
-    
-    let redirectUrl;
-// switch function learned properly in https://www.shecodes.io/athena/11461-how-to-make-a-div-redirect-to-another-page-using-javascript#:~:text=To%20make%20a%20div%20element,redirect%20to%20the%20desired%20page.
-// and in https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
+// LifeStyle Selection fuction
+function replaceGoalWithLifeStyle() {
 
-    switch (selectedGoal) {
-        case "Muscle Gain":
-            redirectUrl = "muscle-gain.html";
-            break;
-        case "Loss Weight":
-            redirectUrl = "loss-weight.html";
-            break;
-        case "Control Calories":
-            redirectUrl = "control-calories.html";
-            break;
-        default:
-            // Handle default case or error
-            redirectUrl = "index.html";
-            break;
-    }
+    // Get the main container again
+    const mainContainer = document.querySelector(".flex-container");
 
-    
-    window.location.href = redirectUrl;
+    // Create a div for the question "how do you describe your lifestyle?"
+    const lifeStyleTextDiv = document.createElement("div");
+    lifeStyleTextDiv.classList.add("lifestyle-text");
+
+    const lifeStyleParagraph = document.createElement("p");
+    lifeStyleParagraph.textContent = "How do you describe your lifestyle?";
+
+    // Create a div for lifestyle buttons
+    lifeStyleTextDiv.appendChild(lifeStyleParagraph);
+    const lifeStyleButtonDiv = document.createElement("div");
+    lifeStyleButtonDiv.classList.add("lifestyle-buttons");
+
+    // Create buttons for each goal option
+    const lifeStyleOptions = ["Active", "Average", "Lazy"];
+
+    lifeStyleOptions.forEach(function (option) {
+        const lifeStyleButton = document.createElement("button");
+        lifeStyleButton.textContent = option;
+        lifeStyleButton.classList.add("lifestyle-btn");
+        lifeStyleButton.addEventListener("click", function () {
+            // Redirect to result page  
+            alert("User selected lifestyle: " + option);
+
+        });
+        lifeStyleButtonDiv.appendChild(lifeStyleButton);
+    });
+
+
+    lifeStyleTextDiv.appendChild(lifeStyleButtonDiv);
+    mainContainer.replaceChild(lifeStyleTextDiv, document.querySelector(".goal-text"));
 }
+
