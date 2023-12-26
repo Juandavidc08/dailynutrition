@@ -64,17 +64,17 @@ function replaceQuestionWithButtons() {
 
 }
 // Next question what is your goal function will work the same as the age range function
-// Goal selection function
+// Goal #1 selection function
 function replaceAgeWithGoal() {
     // Get the main container again
     const mainContainer = document.querySelector(".flex-container");
 
-    // Create a div for the question "What is your goal?"
-    const goalTextDiv = document.createElement("div");
+    // Create a div for the question "What is your goal #1?"
+    const goalTextDiv = document.createElement("div"); 
     goalTextDiv.classList.add("goal-text");
 
     const goalParagraph = document.createElement("p");
-    goalParagraph.textContent = "What is your goal?";
+    goalParagraph.textContent = "Which of this describes you better?";
 
     // Create a div for goal buttons
     goalTextDiv.appendChild(goalParagraph);
@@ -82,7 +82,7 @@ function replaceAgeWithGoal() {
     goalButtonDiv.classList.add("goal-buttons");
 
     // Create buttons for each goal option
-    const goalOptions = ["Muscle Gain", "Loss Weight", "Control Calories"];
+    const goalOptions = ["Get in shape", "Eat Healtier", "Expert meal preping"];
 
     goalOptions.forEach(function (range) {
         const goalButton = document.createElement("button");
@@ -90,7 +90,8 @@ function replaceAgeWithGoal() {
         goalButton.classList.add("goal-btn");
         goalButton.addEventListener("click", function () {
             // Redirect to lifestyle question
-            replaceGoalWithLifeStyle() 
+            replaceGoalWithLifeStyle();
+        
         });
         goalButtonDiv.appendChild(goalButton);
     });
@@ -126,8 +127,8 @@ function replaceGoalWithLifeStyle() {
         lifeStyleButton.textContent = option;
         lifeStyleButton.classList.add("lifestyle-btn");
         lifeStyleButton.addEventListener("click", function () {
-            // Redirect to result page  
-            alert("User selected lifestyle: " + option);
+            // Redirect to last question page  
+            lastGoal();
 
         });
         lifeStyleButtonDiv.appendChild(lifeStyleButton);
@@ -136,5 +137,42 @@ function replaceGoalWithLifeStyle() {
 
     lifeStyleTextDiv.appendChild(lifeStyleButtonDiv);
     mainContainer.replaceChild(lifeStyleTextDiv, document.querySelector(".goal-text"));
+}
+
+// Final Goal selection function
+function lastGoal() {
+    // Get the main container again
+    const mainContainer = document.querySelector(".flex-container");
+
+    // Create a div for the question "What is your goal #1?"
+    const lastGoalTextDiv = document.createElement("div"); 
+    lastGoalTextDiv.classList.add("lgoal-text");
+
+    const lastGoalParagraph = document.createElement("p");
+    lastGoalParagraph.textContent = "What is your goal?";
+
+    // Create a div for goal buttons
+    lastGoalTextDiv.appendChild(lastGoalParagraph);
+    const lastGoalButtonDiv = document.createElement("div");
+    lastGoalButtonDiv.classList.add("lgoal-buttons");
+
+    // Create buttons for each goal option
+    const lastGoalOptions = ["Gain Muscle", "Loss Weight", "Count Calories"];
+
+    lastGoalOptions.forEach(function (range) {
+        const lastGoalButton = document.createElement("button");
+        lastGoalButton.textContent = range;
+        lastGoalButton.classList.add("lgoal-btn");
+        lastGoalButton.addEventListener("click", function () {
+            // Redirect to resutl page
+            
+        
+        });
+        lastGoalButtonDiv.appendChild(lastGoalButton);
+    });
+
+    // Append the new content and button div to the main container, and change the age range question to the goal options
+    lastGoalTextDiv.appendChild(lastGoalButtonDiv);
+    mainContainer.replaceChild(lastGoalTextDiv, document.querySelector(".lifestyle-text"));
 }
 
