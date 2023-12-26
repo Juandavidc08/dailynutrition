@@ -64,12 +64,12 @@ function replaceQuestionWithButtons() {
 
 }
 // Next question what is your goal function will work the same as the age range function
+// Goal selection function
 function replaceAgeWithGoal() {
-
-     // Get the main container again
+    // Get the main container again
     const mainContainer = document.querySelector(".flex-container");
 
-    // Create a div for question what is your goal?
+    // Create a div for the question "What is your goal?"
     const goalTextDiv = document.createElement("div");
     goalTextDiv.classList.add("goal-text");
 
@@ -81,8 +81,7 @@ function replaceAgeWithGoal() {
     const goalButtonDiv = document.createElement("div");
     goalButtonDiv.classList.add("goal-buttons");
 
-    // Create buttons for each goal option 
-
+    // Create buttons for each goal option
     const goalOptions = ["Muscle Gain", "Loss Weight", "Control Calories"];
 
     goalOptions.forEach(function (range) {
@@ -90,14 +89,40 @@ function replaceAgeWithGoal() {
         goalButton.textContent = range;
         goalButton.classList.add("goal-btn");
         goalButton.addEventListener("click", function () {
-            // this will go to the result of the test
-            alert("You selected: " + range);
+            // Redirect to results page
+            redirectToGoalPage(range);
         });
         goalButtonDiv.appendChild(goalButton);
     });
 
-    // Append the new content and button div to the main container , and chage the age range question to the goal options
-
+    // Append the new content and button div to the main container, and change the age range question to the goal options
     goalTextDiv.appendChild(goalButtonDiv);
     mainContainer.replaceChild(goalTextDiv, document.querySelector(".age-text"));
+}
+
+// Function to redirect to a new page according on the selected goal
+function redirectToGoalPage(selectedGoal) {
+    
+    let redirectUrl;
+// switch function learned properly in https://www.shecodes.io/athena/11461-how-to-make-a-div-redirect-to-another-page-using-javascript#:~:text=To%20make%20a%20div%20element,redirect%20to%20the%20desired%20page.
+// and in https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
+
+    switch (selectedGoal) {
+        case "Muscle Gain":
+            redirectUrl = "muscle-gain.html";
+            break;
+        case "Loss Weight":
+            redirectUrl = "loss-weight.html";
+            break;
+        case "Control Calories":
+            redirectUrl = "control-calories.html";
+            break;
+        default:
+            // Handle default case or error
+            redirectUrl = "index.html";
+            break;
+    }
+
+    
+    window.location.href = redirectUrl;
 }
