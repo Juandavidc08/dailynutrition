@@ -145,6 +145,50 @@ strong{
 
 }
 
+/*Result pages*/
+
+#lifestyle-qst{
+
+    font-size: 100%;
+
+}
+.result-container {
+    background-color: rgba(25, 27, 30, 0.7);
+    color: #fff;
+    margin: 2px;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.result-btn {
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background: linear-gradient(to bottom, #c62d1f 5%, #bd4840 100%);
+    background-color: #c62d1f;
+    border-radius: 18px;
+    border: 1px solid #d02718;
+    cursor: pointer;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Kanit", sans-serif;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #810e05;
+    text-align: center;
+    margin: 20px auto 0;
+
+}
+
+.result-btn:hover {
+    background: linear-gradient(to bottom, #f24437 10%, #c62d1f 100%);
+    background-color: #f24437;
+}
+
+.result-btn:active {
+    position: relative;
+    top: 1px;
+}
 
 /* Footer */
 footer {
