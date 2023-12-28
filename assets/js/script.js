@@ -202,3 +202,40 @@ function redirectToResult(selectedGoal) {
     
     window.location.href = redirectUrl;
 }
+
+// Modal Function in Result pages
+
+
+function runModal(){
+
+    const modal = document.querySelector(".modal");
+    const overlay = document.querySelector(".overlay");
+    const openModalBtn = document.querySelector(".btn-open");
+    const closeModalBtn = document.querySelector(".btn-close");
+
+    // Function to close the modal
+
+    const closeBtn = function() {
+        modal.classList.add("hidden");
+        overlay.classList.add("hidden");
+    };
+
+    //Add event listener for when click close the modal
+
+    closeModalBtn.addEventListener("click", closeBtn);
+    overlay.addEventListener("click", closeBtn);
+
+    //Function to Open modal
+
+    const openModal = function() {
+        modal.classList.remove("hidden");
+        overlay.classList.remove("hidden");
+    };
+
+    // Event listener to open modal
+    openModalBtn.addEventListener("click", openModal);
+
+}
+
+//Function call to enable modal function
+runModal();
