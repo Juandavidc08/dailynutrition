@@ -267,6 +267,18 @@ strong{
    
 }
 
+/* Validation Form*/
+
+.form{
+    background-color: rgba(25, 27, 30, 0.8);
+}
+h3{
+    font-family: "Kanit", sans-serif;
+    color:#fff;
+    text-align: center;
+    font-size: 85%;
+    margin: 2px;
+}
 
 
 
