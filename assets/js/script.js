@@ -184,7 +184,7 @@ function redirectToResult(selectedGoal) {
 // and in https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
 
     switch (selectedGoal) {
-        case "Muscle Gain":
+        case "Gain Muscle":
             redirectUrl = "muscle-gain.html";
             break;
         case "Loss Weight":

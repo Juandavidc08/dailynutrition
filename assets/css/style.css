@@ -167,19 +167,19 @@ strong{
 /*This is going to change ------>>> :/ */
 /*Result pages*/
 
-#lifestyle-qst{
-
-    font-size: 100%;
+.result-flex-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
-.result-container {
-    background-color: rgba(25, 27, 30, 0.7);
-    color: #fff;
-    margin: 2px;
-    text-align: center;
-    font-family: "Kanit", sans-serif;
-    padding: 20px;
-    backdrop-filter: blur(5px);
+
+#gain-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .result-btn {
