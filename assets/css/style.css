@@ -181,8 +181,55 @@ strong{
     display: block;
     margin: 0 auto;
 }
+/*Modal style https: //www.freecodecamp.org/news/how-to-build-a-modal-with-javascript/*/
 
-.result-btn {
+.modal{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    min-height: 250px;
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    
+    
+    
+}
+
+.modal .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+}
+
+#gain-nutrition-img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.hidden {
+    display: none;
+}
+.btn-open {
     box-shadow: 3px 4px 0px 0px #8a2a21;
     background: linear-gradient(to bottom, #c62d1f 5%, #bd4840 100%);
     background-color: #c62d1f;
@@ -200,17 +247,25 @@ strong{
 
 }
 
-.result-btn:hover {
+.btn-open:hover {
     background: linear-gradient(to bottom, #f24437 10%, #c62d1f 100%);
     background-color: #f24437;
 }
 
-.result-btn:active {
+.btn-open:active {
     position: relative;
     top: 1px;
 }
 
-/*Result pages modal*/
+.btn-close {
+    padding: 0.5rem 0.7rem;
+    background: #d02718;
+    border-radius: 50%;
+    top: 400px;
+    opacity: 0.6;
+   
+}
+
 
 
 
