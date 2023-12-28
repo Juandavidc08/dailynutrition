@@ -157,7 +157,7 @@ function lastGoal() {
     lastGoalButtonDiv.classList.add("lgoal-buttons");
 
     // Create buttons for each goal option
-    const lastGoalOptions = ["Gain Muscle", "Loss Weight", "Count Calories"];
+    const lastGoalOptions = ["Gain Muscle", "Loss Weight", "Control Calories"];
 
     lastGoalOptions.forEach(function (range) {
         const lastGoalButton = document.createElement("button");
