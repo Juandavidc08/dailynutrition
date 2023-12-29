@@ -230,7 +230,7 @@ strong{
 .hidden {
     display: none;
 }
-.btn-open {
+.btn-open{
     box-shadow: 3px 4px 0px 0px #8a2a21;
     background: linear-gradient(to bottom, #c62d1f 5%, #bd4840 100%);
     background-color: #c62d1f;
@@ -271,6 +271,7 @@ strong{
 
 .form{
     background-color: rgba(25, 27, 30, 0.8);
+    margin: 10px;
 }
 h3{
     font-family: "Kanit", sans-serif;
@@ -280,7 +281,29 @@ h3{
     margin: 2px;
 }
 
+form{
+    font-family: "Kanit", sans-serif;
+    color: #fff;
+    margin: 5px;
+    text-align: center;
+}
 
+#submit-input{
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background: linear-gradient(to bottom, #c62d1f 5%, #bd4840 100%);
+    background-color: #c62d1f;
+    border-radius: 18px;
+    border: 1px solid #d02718;
+    cursor: pointer;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Kanit", sans-serif;
+    padding: 2px 10px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #810e05;
+    text-align: center;
+    
+}
 
 /* Footer */
 footer {

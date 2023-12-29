@@ -239,3 +239,23 @@ function runModal(){
 
 //Function call to enable modal function
 runModal();
+
+//Function for validation form 
+ 
+function validationForm(){
+    // Get the reference to the email input field
+    let emailInput = document.forms["myForm"]["email"];
+
+    // expression for email validation
+    let emailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+    if (emailInput.value.match(emailFormat)) {
+        alert("Thanks for entering your email, soon our team will contact you!");
+        emailInput.focus();
+        return true;
+    } else {
+        alert("You entered an invalid email!");
+        emailInput.focus();
+        return false;
+    }
+}
