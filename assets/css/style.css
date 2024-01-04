@@ -337,12 +337,12 @@ header {
     margin: 100px;
 }
 
-.container > h2 {
-    font-size: 300%;
+.container h2 {
+    font-size: 600%;
 }
 
-.container > p {
-    font-size: 180%;
+.container p {
+    font-size: 350%;
     text-align: center;
 }
 
@@ -361,7 +361,7 @@ header {
 }
 
 .start-btn {
-    font-size: 300%;
+    font-size: 400%;
 }
 
 #next-btn {
@@ -370,7 +370,7 @@ header {
 
 /* Age and goal question area */
 
-.age-text, .goal-text {
+.age-text, .goal-text, .lifestyle-text, .lgoal-text {
     
     padding: 100px 20rem;
     font-size: 300%;
@@ -385,6 +385,13 @@ header {
     font-size: 220%;
 }
 
+.lifestyle-text p {
+    font-size: 220%;
+}
+
+.lgoal-text p{
+    font-size: 220%;
+}
 input#name {
     font-size: 200%;
 }
@@ -394,9 +401,28 @@ input#name {
     font-size: 180%;
 }
 
-.goal-btn{
+.goal-btn, .lgoal-btn , .btn-open{
         margin: 20px 30rem;
         font-size: 180%;
+}
+
+.form {
+    font-family: "Kanit", sans-serif;
+    color: #fff;
+    margin: 5px;
+    text-align: center;
+    font-size: 200%;
+}
+
+input{
+
+    font-size: 100%;
+
+}
+#submit-input {
+
+    font-size: 100%;
+
 }
 
 }
@@ -404,33 +430,33 @@ input#name {
 /*larger devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
 
-    body {
+body {
             
             background-size: 100%;
            
-        }
+}
 
-    .container {
+.container {
         width: 700px;    
         font-size: 60%;
     
-        }
+}
     
-        #social-networks li a {
+#social-networks li a {
             font-size: 250%;
-        }
+}
     
-        .start-btn {
-            font-size: 150%;
-        }
+.start-btn {
+            font-size: 400%;
+ }
 
 #next-btn{
-    font-size: 150%;
+    font-size: 250%;
 }
 
     /*Age-btn*/
 
-.age-text, .goal-text {
+.age-text, .goal-text, .lifestyle-text, .lgoal-text {
 
     padding: 100px 15rem;
     font-size: 100%;
@@ -438,8 +464,47 @@ input#name {
 
 }
 
-.age-btn, .goal-btn{
+.age-btn, .goal-btn, .lifestyle-btn, .lgoal-btn {
      margin: 20px 1px;
     font-size: 150%;
     }
+}
+
+/* Validation Form*/
+
+.form {
+    background-color: rgba(25, 27, 30, 0.8);
+    margin: 10px;
+}
+
+h3 {
+    font-family: "Kanit", sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 85%;
+    margin: 2px;
+}
+
+form {
+    font-family: "Kanit", sans-serif;
+    color: #fff;
+    margin: 5px;
+    text-align: center;
+}
+
+#submit-input {
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background: linear-gradient(to bottom, #c62d1f 5%, #bd4840 100%);
+    background-color: #c62d1f;
+    border-radius: 18px;
+    border: 1px solid #d02718;
+    cursor: pointer;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Kanit", sans-serif;
+    padding: 2px 10px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #810e05;
+    text-align: center;
+
 }
