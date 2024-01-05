@@ -436,9 +436,13 @@ body {
            
 }
 
+header{
+    font-size:230%;
+}
+
 .container {
-        width: 700px;    
-        font-size: 60%;
+        width: 730px;    
+        font-size: 40%;
     
 }
     
@@ -465,10 +469,11 @@ body {
 }
 
 .age-btn, .goal-btn, .lifestyle-btn, .lgoal-btn {
-     margin: 20px 1px;
+     margin: 20px 4px;
     font-size: 150%;
     }
 }
+
 
 /* Validation Form*/
 
@@ -490,6 +495,7 @@ form {
     color: #fff;
     margin: 5px;
     text-align: center;
+    
 }
 
 #submit-input {
