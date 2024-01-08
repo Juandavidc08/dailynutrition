@@ -152,15 +152,22 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 * For creating the modal I used [this youtube video](https://www.youtube.com/watch?v=XH5OW46yO8I) to understand the function better beside this page [this page](https://www.freecodecamp.org/news/how-to-build-a-modal-with-javascript/).
 * For emai validator I used [this link](https://www.scaler.com/topics/email-validation-in-javascript/) to fully understan and place the correct function in the page.
 
+
 ### Media
 
 * All images where taken from [Unsplash](https://unsplash.com/es)
 
-- The favicon image was taken from [favicon](https://favicon.io/)
+* The favicon image was taken from [favicon](https://favicon.io/)
 
-- Icons animated and no animated where taken from [FontAwesome] (https://fontawesome.com/)
+* Icons animated and no animated where taken from [FontAwesome] (https://fontawesome.com/)
 
-- Responsive image photo was took from [ui](https://ui.dev/amiresponsive)
+* Responsive image photo was took from [ui](https://ui.dev/amiresponsive)
 
 
 ### Acknowledgments
+
+I would like to acknowledge the following people:
+
+* Jubril Akolade - My Code Institue Mentor.
+
+* Code Institute tutors and community that help me.

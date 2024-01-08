@@ -255,6 +255,7 @@ function validationForm(){
         //IMPORTANT! NEED TO FIX THIS SO AFTER THE ALERT THE USER GO TO INDEX.HTML
         window.location.href = "index.html";
         return true;
+        
     } else {
         alert("You entered an invalid email!");
         emailInput.focus();
