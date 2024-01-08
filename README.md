@@ -101,4 +101,66 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 
 ---
 
-## 
+## Bugs
+
+* No bugs found.
+
+---
+
+## Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): Foundation.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): Style and layout.
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript): User interaction in the web page.
+- [Github](https://github.com): Host and deploy the code for the website.
+- [Codeanywhere](https://app.codeanywhere.com): Write and edit the code.
+- [Wireframe](https://wireframe.cc/): Sketch the basic of the idea.
+- [Coolors.co](https://coolors.co/): Create Pallete.
+- [Favicon.io](https://favicon.io/) To create favicon.
+- [Google Developer Tools](https://developers.google.com/web/tools) To troubleshoot and test features.
+* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+  
+---
+
+## Deployment
+
+* The project was deployed to GitHub pages.
+* The link can be found [here](https://juandavidc08.github.io/dailynutrition/)
+* Go to the Settings tab of the GitHub repo.
+* On the left-hand sidebar, in the Code and automation section, select Pages.
+* Source should be'Deploy from Branch'.
+* Select Main branch.
+* Set folder to root.
+* Save
+
+---
+
+### Future Implementation
+
+* Create more visual questions, in where the user can interact when deciding giving them more range of exactitude to target the result more specific manner.
+* Implement a Daily nutrition video of the founders explaining why is his about and what is their mission in the home page
+* Add custome 404 page.
+* Improve the quality of the commits that were used.
+* Improve accebility.
+
+---
+
+## Credits
+
+### Code Used
+
+* For creating the modal I used [this youtube video](https://www.youtube.com/watch?v=XH5OW46yO8I) to understand the function better beside this page [this page](https://www.freecodecamp.org/news/how-to-build-a-modal-with-javascript/).
+* For emai validator I used [this link](https://www.scaler.com/topics/email-validation-in-javascript/) to fully understan and place the correct function in the page.
+
+### Media
+
+* All images where taken from [Unsplash](https://unsplash.com/es)
+
+- The favicon image was taken from [favicon](https://favicon.io/)
+
+- Icons animated and no animated where taken from [FontAwesome] (https://fontawesome.com/)
+
+- Responsive image photo was took from [ui](https://ui.dev/amiresponsive)
+
+
+### Acknowledgments
