@@ -67,3 +67,38 @@ Daily nutrition is a fast test made for a nutrition company that allows the firs
 * The email form have a function in where the user need to complete it with a valid emai if not it doesnt send the information.
 
 ![Validation](documentation/form-valid.png) ![Validation not working](documentation/form-notvalid.png)
+
+---
+
+## Design
+
+* The concept of Daily nutrition is a minimalist image with contemporary aspects with a target market of fitness related users, with their image they want also to attract a customer data base of regular persons that desire to achieve a healthier lifestyle.
+
+### Color Scheme
+
+![Pallete](documentation/color-palette.png)
+
+### Fonts
+
+![font-rubik](documentation/font-rubik.png)
+![font-kanit](documentation/font-kanit.png)
+
+### Wireframe
+
+* Create a User friendly test.
+
+![wireframe1](documentation/wireframe.png)
+![wireframe2](documentation/wireframe-test.png)
+![wireframe3](documentation/wirefrme-question.png)
+![wireframe4](documentation/wireframe-result.png)
+![wireframe5](documentation/wireframe-modal.png)
+
+---
+
+## Testing
+
+Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
+
+---
+
+## 
