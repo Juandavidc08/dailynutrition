@@ -18,3 +18,52 @@ Daily nutrition is a fast test made for a nutrition company that allows the firs
 * As a third time visitor, I want to share the page with someone who can be interested.
 
 # Features
+
+* A Favicon in the Browser.
+  
+![Favicon](documentation/favicon.png)
+
+* A title that act as a link to be able to return to Home Page.
+  
+![Title](documentation/title-link.png)
+
+* A footer that take the users to all social media of the company.
+
+![Footer](documentation/footer-img.png)
+
+---
+
+### Home Page
+
+* Emphasize in the company idea.
+* Display the main idea of the test.
+* Invites the user to follow the steps.
+
+![Home Page](documentation/home-page.png)
+
+### Test Page
+
+* When the users enter their name allows to begin the questions and as an answer is clicked the follow question appears.
+
+![Test Page](documentation/test-img.png) ![First Question](documentation/first-question.png) ![Second Question](documentation/second-question.png) ![Third Question](documentation/third-question.png) ![Fourth Question](documentation/fourth-question.png) 
+
+
+---
+
+### Result Pages
+
+* After all question are answered the page is redirect to the result page depending on their objective, there are 3 main result pages, Gain Muscle, Loss Weight, Control Calories, all of them are structure with the title thats work as a link to main page, a modal button that shows a nutrition plan and a form so the user can contact the company.
+
+![Gain Muscle](documentation/gain-muscle.png) ![Loss Weight](documentation/loss-weight.png) ![Control Calories](documentation/control-calories.png)
+
+* The modal works when the user click on the open button full nutrition plan is display, it also have a close button under it to return to the result page.
+
+![Modal](documentation/modal-img.png)
+  
+* Under the modal there is a email form that users should submit if they want further information
+
+![Form](documentation/form.png)
+
+* The email form have a function in where the user need to complete it with a valid emai if not it doesnt send the information.
+
+![Validation](documentation/form-valid.png) ![Validation not working](documentation/form-notvalid.png)
