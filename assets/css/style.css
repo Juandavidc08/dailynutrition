@@ -101,6 +101,7 @@ strong{
         color: #fff;
         padding: 80px 5rem;
         margin: 0.5rem;
+        border-radius: 15px;
         text-align: justify;
         font-family: "Kanit", sans-serif;
         display: flex;
@@ -271,12 +272,13 @@ strong{
 }
 
 .btn-close {
-    padding: 0.5rem 0.7rem;
-    background: #d02718;
+    padding: 0.2rem 0.4rem;
+    background: rgba(25, 27, 30, 0.5);
+    position: relative;
+    bottom: 695px;
+    left: 130px;
     border-radius: 50%;
-    top: 400px;
-    opacity: 0.6;
-   
+    
 }
 
 /* Validation Form*/
