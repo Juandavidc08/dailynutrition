@@ -50,6 +50,7 @@ header a{
     color: #fff;
     padding: 10px 1rem;
     margin: 1.5em;
+    border-radius: 15px;
     text-align: justify;
     font-family: "Kanit", sans-serif;
     display: flex;
@@ -168,6 +169,9 @@ strong{
 /*Result pages*/
 
 .result-flex-container{
+    background-color: rgba(25, 27, 30, 0.8);
+    margin: 10px;
+    border-radius: 15px;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -175,6 +179,13 @@ strong{
 
 }
 
+.result-title{
+    font-size: 200%;
+    color: #ffffff;
+    margin:15px;
+    text-align: center;
+    font-family: "Rubik Doodle Shadow", sans-serif;
+}
 #gain-img, #loss-img,
 #control-img {
     max-width: 100%;
