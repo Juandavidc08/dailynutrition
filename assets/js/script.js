@@ -258,12 +258,9 @@ function validationForm(){
         icon: 'success',
         title: 'Thank you!',
         text: 'Our team will contact you in a few minutes !'
-       }).then(() => {
-           window.location.href = "index.html";
-       })
+       });
         emailInput.focus();
         return true;
-        
     } else {
         Swal.fire({
             icon:'error',
