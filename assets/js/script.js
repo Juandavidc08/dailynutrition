@@ -254,14 +254,22 @@ function validationForm(){
     let emailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
     if (emailInput.value.match(emailFormat)) {
-        alert("Thanks for entering your email, soon our team will contact you!");
+       Swal.fire({
+        icon: 'success',
+        title: 'Thank you!',
+        text: 'Our team will contact you in a few minutes !'
+       }).then(() => {
+           window.location.href = "index.html";
+       })
         emailInput.focus();
-        //IMPORTANT! NEED TO FIX THIS SO AFTER THE ALERT THE USER GO TO INDEX.HTML
-        window.location.href = "index.html";
         return true;
         
     } else {
-        alert("You entered an invalid email!");
+        Swal.fire({
+            icon:'error',
+            title:'Invalid email!',
+            text: 'Please enter a valid email address!',
+        });
         emailInput.focus();
         return false;
     }
