@@ -342,27 +342,35 @@ footer {
 
 /* Media query: tablets and larger (768px and up)*/
 @media screen and (min-width:768px) {
+/* Home page*/
 header {
-    font-size: 300%;
+    font-size: 250%;
 }
 
 .container {
-    margin: 100px;
+    margin: 50px;
 }
 
 .container h2 {
-    font-size: 600%;
+    font-size: 200%;
 }
 
 .container p {
-    font-size: 350%;
+    font-size: 200%;
     text-align: center;
 }
 
 
 #social-networks li a {
-    font-size: 400%;
+    font-size: 300%;
 }
+
+/*start btn*/
+.start-btn {
+    font-size: 200%;
+}
+
+/*test page*/
 
 .question-area label{
     font-size: 200%;
@@ -373,9 +381,6 @@ header {
     font-size:180%;
 }
 
-.start-btn {
-    font-size: 400%;
-}
 
 #next-btn {
     font-size: 300%;
