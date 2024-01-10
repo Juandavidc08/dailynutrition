@@ -1,10 +1,10 @@
-![Daniy Nutrition logo](documentation/dailynutrition-logo.png)
+![Daniy Nutrition logo](documentation/logo.png)
 
 Daily nutrition is a fast test made for a nutrition company that allows the first communication between the user and the company in where the user is asked few questions that describe themselfs in achiving nutrition goals and the company send them a first view of what it would be like if they subscribe to their page and decide to take their services, this will help the company to make their future clients to know their brand and also generate a data base of users in benefit for future negotiations.
 
 [Link to Daily Nutrition Test](https://juandavidc08.github.io/dailynutrition/)
 
-![Resposive Mockup](documentation/resposive-image-daily-nutrition.png)
+![Resposive Mockup](documentation/responsive-screen.png)
 ---
 ## User Stories 
 
@@ -25,11 +25,11 @@ Daily nutrition is a fast test made for a nutrition company that allows the firs
 
 * A title that act as a link to be able to return to Home Page.
   
-![Title](documentation/title-link.png)
+![Title](documentation/tittle.png)
 
 * A footer that take the users to all social media of the company.
 
-![Footer](documentation/footer-img.png)
+![Footer](documentation/footer.png)
 
 ---
 
@@ -39,13 +39,22 @@ Daily nutrition is a fast test made for a nutrition company that allows the firs
 * Display the main idea of the test.
 * Invites the user to follow the steps.
 
-![Home Page](documentation/home-page.png)
+![Home Page](documentation/home.png)
 
 ### Test Page
 
-* When the users enter their name allows to begin the questions and as an answer is clicked the follow question appears.
+* When the users enter their name allows to begin the questions and as an answer is clicked the follow question appears. Here are shown all the questions in order.
 
-![Test Page](documentation/test-img.png) ![First Question](documentation/first-question.png) ![Second Question](documentation/second-question.png) ![Third Question](documentation/third-question.png) ![Fourth Question](documentation/fourth-question.png) 
+* Test Main Page:
+![Test Page](documentation/test-page.png) 
+* First question:
+![First Question](documentation/age-question.png) 
+* Second question:
+![Second Question](documentation/goal-question.png)
+* Third question:
+![Third Question](documentation/lifestyle-question.png) 
+* Fourth question: 
+![Fourth Question](documentation/lgoal-question.png) 
 
 
 ---
@@ -54,11 +63,21 @@ Daily nutrition is a fast test made for a nutrition company that allows the firs
 
 * After all question are answered the page is redirect to the result page depending on their objective, there are 3 main result pages, Gain Muscle, Loss Weight, Control Calories, all of them are structure with the title thats work as a link to main page, a modal button that shows a nutrition plan and a form so the user can contact the company.
 
-![Gain Muscle](documentation/gain-muscle.png) ![Loss Weight](documentation/loss-weight.png) ![Control Calories](documentation/control-calories.png)
+![Gain Muscle](documentation/muscle-gain-result.png) 
+![Loss Weight](documentation/loss-weight-result.png) 
+![Control Calories](documentation/control-calories-result.png)
 
 * The modal works when the user click on the open button full nutrition plan is display, it also have a close button under it to return to the result page.
+* Each resut page have a diferent image modal that shows an specific Meal plan.
 
-![Modal](documentation/modal-img.png)
+* GAIN MUSCLE MEAL PREP
+![Modal](documentation/muscle-gain-mealplan.png)
+
+* LOSS WEIGHT MEAL PREP
+![Modal2](documentation/loss-weight-mealplan.png)
+
+* CONTROL CALORIES MEAL PREP
+![Modal3](documentation/control-calories-mealplan.png)
   
 * Under the modal there is a email form that users should submit if they want further information
 
@@ -66,7 +85,8 @@ Daily nutrition is a fast test made for a nutrition company that allows the firs
 
 * The email form have a function in where the user need to complete it with a valid emai if not it doesnt send the information.
 
-![Validation](documentation/form-valid.png) ![Validation not working](documentation/form-notvalid.png)
+![Validation](documentation/email-valid-alert.png) 
+![Validation not working](documentation/email-invalid-alert.png)
 
 ---
 
@@ -76,22 +96,21 @@ Daily nutrition is a fast test made for a nutrition company that allows the firs
 
 ### Color Scheme
 
-![Pallete](documentation/color-palette.png)
+![Pallete](documentation/color-pallete.png)
 
 ### Fonts
 
-![font-rubik](documentation/font-rubik.png)
-![font-kanit](documentation/font-kanit.png)
+![fonts](documentation/font.png)
 
 ### Wireframe
 
-* Create a User friendly test.
+* I used [Wireframe](https://wireframe.cc/) to skecth the idea of the each page
 
-![wireframe1](documentation/wireframe.png)
-![wireframe2](documentation/wireframe-test.png)
-![wireframe3](documentation/wirefrme-question.png)
-![wireframe4](documentation/wireframe-result.png)
-![wireframe5](documentation/wireframe-modal.png)
+![wireframe1](documentation/wf1.png)
+![wireframe2](documentation/wf2.png)
+![wireframe3](documentation/wf3.png)
+![wireframe4](documentation/wf4.png)
+![wireframe5](documentation/wf5.png)
 
 ---
 
