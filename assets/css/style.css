@@ -388,40 +388,39 @@ header {
 
 /* Age and goal question area */
 
+
 .age-text, .goal-text, .lifestyle-text, .lgoal-text {
     
-    padding: 100px 20rem;
-    font-size: 300%;
+    padding: 8px 1.5rem;
+    margin: 50px;
+    font-size: 200%;
+    border-radius: 15px;
 
 }
 
-.age-text p {
-    font-size: 220%;
-}
-
-.goal-text p {
-    font-size: 220%;
-}
-
-.lifestyle-text p {
-    font-size: 220%;
-}
-
-.lgoal-text p{
-    font-size: 220%;
-}
 input#name {
     font-size: 200%;
 }
 
-.age-btn {
-    margin: 20px 10px;
-    font-size: 180%;
+.lgoal-buttons, .goal-buttons, .age-buttons, .lifestyle-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.goal-btn, .lgoal-btn , .btn-open{
-        margin: 20px 30rem;
-        font-size: 180%;
+.age-btn, .lifestyle-btn {
+    margin: 20px 10px;
+    font-size: 100%;
+}
+
+.lgoal-btn, .goal-btn{
+    margin: 20px 20px;
+    font-size: 100%;
+}
+/*Resut page*/
+
+.result-title{
+    font-size: 250%;
 }
 
 .form {
@@ -430,6 +429,11 @@ input#name {
     margin: 5px;
     text-align: center;
     font-size: 200%;
+}
+
+.btn-open {
+    margin: 15px 10px;
+    font-size: 120%;
 }
 
 input{
@@ -447,6 +451,8 @@ input{
 
 /*larger devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
+
+/*Background image*/
 
 body {
             
