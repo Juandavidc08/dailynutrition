@@ -166,7 +166,6 @@ strong{
 }
 
 
-/*This is going to change ------>>> :/ */
 /*Result pages*/
 
 .result-flex-container{
@@ -449,7 +448,7 @@ input{
 
 }
 
-/*larger devices (laptops and desktops, 992px and up)*/
+/* Larger devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
 
 /*Background image*/
@@ -459,44 +458,83 @@ body {
             background-size: 100%;
            
 }
-
+/*Text*/
 header{
-    font-size:230%;
+    font-size:250%;
 }
 
 .container {
-        width: 730px;    
-        font-size: 40%;
+        width: 800px;    
     
 }
-    
+
+.container h2 {
+    font-size: 200%;
+}
+
+.container p {
+    font-size: 120%;
+    text-align: center;
+}
+
+/*Social Media*/
 #social-networks li a {
             font-size: 250%;
 }
-    
+
+/*Start button*/  
 .start-btn {
-            font-size: 400%;
+            font-size: 200%;
+ }
+
+ /*test page*/
+
+ .question-area label {
+     font-size: 250%;
+
+ }
+
+ .question-area input {
+     font-size: 150%;
  }
 
 #next-btn{
-    font-size: 250%;
+    font-size: 200%;
 }
 
-    /*Age-btn*/
+/*test text and btn*/
+.age-text p, .goal-text p, .lifestyle-text p, .lgoal-text p{
+    font-size: 150%;
+}
 
 .age-text, .goal-text, .lifestyle-text, .lgoal-text {
 
-    padding: 100px 15rem;
-    font-size: 100%;
+    padding: 80px 1rem;
+    font-size: 150%;
     
 
 }
 
 .age-btn, .goal-btn, .lifestyle-btn, .lgoal-btn {
      margin: 20px 4px;
-    font-size: 150%;
+    font-size: 100%;
     }
 }
+
+/*Result Page*/
+
+header{
+    padding: 30px 5px 10px;
+}
+.result-title {
+    font-size: 300%;
+}
+
+.result-flex-container {
+    background-color: rgba(25, 27, 30, 0.8);
+    margin: 10px 200px;
+}
+
 
 
 /* Validation Form*/
@@ -520,6 +558,11 @@ form {
     margin: 5px;
     text-align: center;
     
+}
+
+.btn-open {
+    margin: 15px 10px;
+    font-size: 150%;
 }
 
 #submit-input {
