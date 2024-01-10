@@ -19,7 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
             replaceQuestionWithButtons();
         } else {
             // Alert the user to enter a name if it's empty
-            alert("Please enter your name!");
+           Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Please enter your name!',
+           });
         }
     });
 });
