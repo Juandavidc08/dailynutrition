@@ -249,7 +249,7 @@ runModal();
 function validationForm(){
     // Get the reference to the email input field
     let emailInput = document.forms["myForm"]["email"];
-
+    var redirectHome = "index.html";
     // expression for email validation
     let emailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
@@ -258,9 +258,12 @@ function validationForm(){
         icon: 'success',
         title: 'Thank you!',
         text: 'Our team will contact you in a few minutes !'
-       });
+       }).then(() => {
+           window.location.href = redirectHome;
+       })
         emailInput.focus();
         return true;
+        
     } else {
         Swal.fire({
             icon:'error',
