@@ -118,7 +118,8 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 - [Coolors.co](https://coolors.co/): Create Pallete.
 - [Favicon.io](https://favicon.io/) To create favicon.
 - [Google Developer Tools](https://developers.google.com/web/tools) To troubleshoot and test features.
-* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+- [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+- [Sweet Alert](https://sweetalert2.github.io/#themes) - Custom alerts.
   
 ---
 
@@ -149,8 +150,9 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 
 ### Code Used
 
-* For creating the modal I used [this youtube video](https://www.youtube.com/watch?v=XH5OW46yO8I) to understand the function better beside this page [this page](https://www.freecodecamp.org/news/how-to-build-a-modal-with-javascript/).
+* For creating the modal I used [this youtube video](https://www.youtube.com/watch?v=XH5OW46yO8I) to understand the function better beside [this page](https://www.freecodecamp.org/news/how-to-build-a-modal-with-javascript/).
 * For emai validator I used [this link](https://www.scaler.com/topics/email-validation-in-javascript/) to fully understan and place the correct function in the page.
+* For custom alerts I used [Sweet Alert](https://sweetalert2.github.io/#themes)
 
 
 ### Media

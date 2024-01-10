@@ -24,25 +24,32 @@
 </head>
 
 <body>
+<!--Title/ Logo of Daily nutrition that will be display in all pages-->
     <header>
+        <!--This title will be link to home page-->
         <a href="index.html" aria-label="Home">
             <h1>Daily Nutrition</h1>
         </a>
     </header>
     <main class="result-flex-container">
         <div>
+        <!--Title depending on result-->
             <h2 class="result-title">¡¡Control Calories!!</h2>
+            <!--Hero image of result-->
             <img id="control-img" src="assets/images/img/control-calories.jpg" alt="control-calories">
         </div>
+        <!--Modal section that will open a nutrition plan-->
         <section class="modal hidden">
             <div class="flex">
                 <img id="control-nutrition-img" src="assets/images/img/control-calories-nutrition.jpg" alt="nutrition-img">
+        <!--Modal close btn-->
                 <button class="btn-close"><i class="fa-solid fa-xmark"></i></button>
             </div>
         </section>
+        <!--Modal open btn-->
         <div class="overlay hidden"></div>
         <button class="btn-open">Open</button>
-
+<!--Validation form, requires email address for further info-->
         <div class="form">
             <h3> For expert guidance towards achieving your goals, provide us your email. Opt for
                 Daily Nutrition, we are the smart choice. Let's start this journey together!</h3>
