@@ -227,7 +227,7 @@ function runModal(){
     //Add event listener for when click close the modal
 
     closeModalBtn?.addEventListener("click", closeBtn);
-    overlay.addEventListener("click", closeBtn);
+    overlay?.addEventListener("click", closeBtn);
 
     //Function to Open modal
 
@@ -237,7 +237,7 @@ function runModal(){
     };
 
     // Event listener to open modal
-    openModalBtn.addEventListener("click", openModal);
+    openModalBtn?.addEventListener("click", openModal);
 
 }
 

@@ -1,6 +1,6 @@
 # Daily Nutition - Testing
 
-![Resposive Image](documentation/resposive-image-daily-nutrition.png)
+![Resposive Image](documentation/responsive-screen.png)
 
 Here is the link for the deployed website: [Daily Nutrition](https://juandavidc08.github.io/dailynutrition/)
 
