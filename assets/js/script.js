@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextButton = document.getElementById("next-btn");
 
     // Add click event listener when press next button
-    nextButton.addEventListener("click", function (event) {
+    nextButton?.addEventListener("click", function (event) {
         // Prevent the default form submission
         event.preventDefault();
 
@@ -246,7 +246,10 @@ runModal();
 
 //Function for validation form 
  
-function validationForm(){
+function validationForm(event){
+
+    event.preventDefault();
+
     // Get the reference to the email input field
     let emailInput = document.forms["myForm"]["email"];
     var redirectHome = "index.html";
