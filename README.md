@@ -47,6 +47,8 @@ Daily nutrition is a fast test made for a nutrition company that allows the firs
 
 * Test Main Page:
 ![Test Page](documentation/test-page.png) 
+* If the user does not place a name it will show an alert
+![Name input](documentation/name-validation.png)
 * First question:
 ![First Question](documentation/age-question.png) 
 * Second question:
