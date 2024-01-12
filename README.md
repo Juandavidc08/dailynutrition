@@ -163,7 +163,8 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 * Implement a Daily nutrition video of the founders explaining why is his about and what is their mission in the home page
 * Add custome 404 page.
 * Improve the quality of the commits that were used.
-* Improve accebility.
+* Improve accessibility.
+* Improve best practices in lighthouse.
 
 ---
 

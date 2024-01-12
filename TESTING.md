@@ -26,10 +26,12 @@ No errors. 1 warning in section where the modal will appear.
 ---
 
 ## Lighthouse
-
 Home Page
+![Home-lighthouse](documentation/lighthouse-index.png)
 Test Page
+![Text-lighthouse](documentation/lighthouse-test.png)
 Resut Page
+![Resultlighthouse](documentation/lighthouse-result.png)
 
 ---
 
